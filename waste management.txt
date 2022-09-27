@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Let'create heaven on earth!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RaGWay</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/About.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="/contactus.html"
+              aria-expanded="false">
+              Contact us
+            </a>
+
+          </li>
+          <li class="nav-item">
+
+          </li>
+        </ul>
+        <div class="mx-auto" style="width: 200px;">
+
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx=4">
+          <button class="login-button" data-toggle="modal" data-target="#loginModal">Login</button>
+          <button class="signin-button" data-toggle="modal" data-target="#signinModal">SignUp</button>
+          <style>
+            .login-button {
+              background-color: rgb(237, 78, 78);
+              height: 42px;
+              width: 100px;
+              border-color: rgb(39, 39, 46);
+              border: radius 20px;
+              cursor: pointer;
+              font-size: larger;
+              font-weight: bolder;
+
+            }
+
+            .login-button:hover {
+              opacity: 0.8;
+            }
+
+            .login-button:active {
+              opacity: 0.4;
+            }
+            .signin-button {
+              background-color: rgb(186, 85, 85);
+              height: 40px;
+              width: 85px;
+              border-color: rgb(198, 198, 213);
+              border: radius 20px;
+              cursor: pointer;
+              font-size: larger;
+              font-weight: bold;
+
+            }
+
+            .signin-button:hover {
+              opacity: 0.8;
+            }
+
+            .signin-button:active {
+              opacity: 0.6;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+  
+</button>
+
+<!--login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login to Ragway</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary">close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signinModal">
+  
+</button>
+
+<!--signin Modal -->
+<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signinModalLabel">Get a Ragway Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="exampleInputAdress">Address</label>
+            
+            <input  type="INDIA" class="form-control" id="exampleInputAddress" placeholder="Country - INDIA">
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item active" ><a href="#">House No.</a></li>
+              </ol>
+            </nav>
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">localitiy</a></li>
+                <li class="breadcrumb-item active"><a href="#">Sreet Name</a></li>
+              </ol>
+            </nav>
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">City</a></li>
+                <li class="breadcrumb-item"><a href="#">State</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Union Terroritry</li>
+              </ol>
+            </nav>
+            <label for="exampleInputphonenumber">Phone number</label>
+            <input type="Phone number" class="form-control" id="exampleInputPhonenumber" placeholder="Phone number">
+            <label for="exampleInputPassword2">Adhaar Card No.</label>
+            <input type="Adhar card No." class="form-control" id="exampleInputPassword2" placeholder="Adhar Card No.">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Save Changes</button>
+        <button type="button" class="btn btn-primary">Create Account</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1400x400/?waste " class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to RaGWay !</h1>
+          <p>SMART WASTE COLLECTION SYSTEM</p>
+          <button class="btn btn-primary">REGISTER AS CUSTOMER</button>
+          <button class="btn btn-danger">REGISTER AS GARBAGE COLLECTOR</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x400/?nature,waste management" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Creating Heaven on EARTH!</h1>
+          <p>SMART WASTE MANAGEMENT SYSTEM</p>
+          <button class="btn btn-primary">REGISTER AS CUSTOMER</button>
+          <button class="btn btn-danger">REGISTER AS GARBAGE COLLECTOR</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x400/?nature,waste" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to E-waste technology !</h1>
+          <p>ONE STEP TO SUSTAINABILITY</p>
+          <button class="btn btn-primary">REGISTER AS CUSTOMER</button>
+          <button class="btn btn-danger">REGISTER AS GARBAGE COLLECTOR</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            
+            
+            
+            <div class="featured-image  page-header-image-single ">
+              <img width="500" height="300" src="https://www.conserve-energy-future.com/wp-content/uploads/2020/06/Litter-slogan.png" class="attachment-full size-full" alt="Litter-slogan" itemprop="image" srcset="https://www.conserve-energy-future.com/wp-content/uploads/2020/06/Litter-slogan.png 500w, https://www.conserve-energy-future.com/wp-content/uploads/2020/06/Litter-slogan-500x300.png 500w" sizes="(max-width: 500px) 100vw, 500px">
+            </div>
+            
+         
+
+      </div>
+
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-6 box-shadow h-md-350">
+          <div class="card-body d-flex flex-column align-items-start">
+            
+            <img src="https://images.gr-assets.com/quotes/1533956509p8/251791.jpg" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Garbage Quotes (55 quotes)" data-noaft="1" style="width: 383px; height: 383px; margin: 0px;">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img class="first-slide"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+              metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="container marketing">
+
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="https://source.unsplash.com/180x180/?waste"
+                alt="Generic placeholder image" width="200" height="200">
+              <h2 class="heading">WASTE SEGREGATION</h2>
+              <p class="content1">Target to segregate biodegradable , non-biodegradable and various type of waste .</p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="https://source.unsplash.com/180x180/?dustbin"
+                alt="Generic placeholder image" width="200" height="200">
+              <h2 class="heading">WASTE COLLECTION</h2>
+              <p class="content1">Garbage collection via truck that carry specific waste </p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="https://source.unsplash.com/180x180/?river"
+                alt="Generic placeholder image" width="200" height="200">
+              <h2 class="heading">WASTE MANAGEMENT</h2>
+              <p class="content1">Truck is from central depot with fixed location and use efficient route to collect the garbage</p>
+              <style>
+               .content1{
+                  font-style: italic;
+                  font-weight: 400;
+                  font-size: larger;
+                  color:rgb(32, 32, 159);
+                  background-color: bisque;
+                }
+                .heading{
+                  color:rgb(220, 62, 62);
+                  font-style: italic;
+                  background-color: bisque;
+                }
+              </style>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+
+          <!-- START THE FEATURETTES -->
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your
+                  mind.</span>
+              </h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto" data-src="https://source.unsplash.com/500x400/?nature"
+                alt="500x500" style="width: 500px; height: 500px;" src="https://source.unsplash.com/500x500/?waste"
+                data-holder-rendered="true">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
+              </h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto"
+                data-src="https://source.unsplash.com/1400x400/?nature,waste management" alt="500x500"
+                src="https://source.unsplash.com/500x400/?nature,technology" data-holder-rendered="true"
+                style="width: 500px; height: 500px;">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto"
+                data-src="https://source.unsplash.com/1400x400/?nature,waste management" alt="500x500"
+                src="https://source.unsplash.com/500x400/?happy people" data-holder-rendered="true"
+                style="width: 500px; height: 500px;">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <!-- /END THE FEATURETTES -->
+
+        </div>
+      </div>
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+        
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
